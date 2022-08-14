@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 1000px;
+    background-color: azure;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #fff;
+
+}
+
+.cervena, .modra, .zelena {
+    padding: 100px;
+    background-color: red;
+    margin-right: 30px;
+
+    transform: scale(1);
+    transition: transform .3s;
+
+    cursor: pointer;
+
+    &:hover {
+        
+    transform: scale(1.2);
+    transition: transform .3s;
+    }
+}
+
+.modra {
+    background-color: blue;
+}
+
+.zelena {
+    background-color: green;
+}
+
