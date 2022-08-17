@@ -14,7 +14,7 @@ body {
 
 }
 
-.cervena, .modra, .zelena {
+.cervena {
     padding: 100px;
     background-color: red;
     margin-right: 30px;
@@ -29,13 +29,5 @@ body {
     transform: scale(1.2);
     transition: transform .3s;
     }
-}
-
-.modra {
-    background-color: blue;
-}
-
-.zelena {
-    background-color: green;
 }
 
